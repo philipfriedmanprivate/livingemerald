@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.logocon {position: absolute;
+	display: flex;
+      align-content: center;
+	justify-content: center;
+width:100%;
+height:100%;}
+
+.logo {
+	
+	width:250px;
+		;
+		
+}
