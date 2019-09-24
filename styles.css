@@ -3,9 +3,177 @@
 
 body {
 	margin: 0;
-	padding: 0
+	padding: 0;
+	font-family: acumin-pro, sans-serif;
+
+}
+.gray {
+	color: #4d4d4c;
 }
 
+.green {
+	color: #74ad3f;
+}
+
+.headmargins {
+		width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:100px;
+	position: relative;
+	height: 759px;
+	z-index: 10
+}
+
+.logo-tag {
+	display: flex;
+	align-items: center
+}
+.logo {
+		display: inline-block
+}
+.tagline {
+	display: inline-block;
+	 font-size: 40px;
+  font-weight: 200;
+	line-height: 1.15;
+	margin-left : 75px
+}
+
+.contact-button {
+	width: 128px;
+  height: 34px;
+  border-radius: 25px;
+  border: solid 1px #4d4d4c;
+	text-transform:uppercase;
+	font-size: 12px;
+  font-weight: 500;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	
+	position: absolute;
+	top:0;
+	right: 0;
+	color: #4d4d4c;
+	transition: all .3s ;
+	cursor: pointer
+	
+}
+.contact-button:hover {
+	color: white;
+	background-color: #4d4d4c
+}
+
+.contact-button div {
+	width: 100%;text-align:center; letter-spacing: 1px
+}
+
+.couple {
+	position: absolute;
+	bottom: 0;
+	right: 0
+}
+.anglebackground {
+	width: 100%;
+	height: 1030px;
+	background: #E9F2E1;
+	transform: skew(0deg, -23deg);
+	position: absolute;
+	top:615px
+	
+}
+
+.margins {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+	position: relative;
+	margin-top:234px;
+	
+}
+.firstSection {
+	height: 415px
+}
+
+.love {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 2
+}
+
+.buildings {
+
+	position: absolute;
+	bottom: -300px;
+	right:0;
+margin-right: -120px;
+	
+}
+h1 {
+	font-size: 48px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+}
+.firsth1 {
+	
+  color: #e18184;
+}
+
+.firstp {
+	width: 549px;
+}
+
+.secondSection {
+	height: 536px;
+	margin-top: 270px
+}
+
+.secondh1 {
+	
+  color: #74ad3f;
+	
+	width: 501px;
+	float: right;
+	margin-top: 54px;
+	margin-bottom: 15px
+}
+
+.secondp {
+	width: 549px;
+	display: block;
+	width: 501px;
+	float: right;
+}
+
+.excellence {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2
+}
+
+.trees {
+
+	position: absolute;
+	bottom: 0;
+	left:-60px;
+	
+}
+p {
+	font-size: 17px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: 0.5px;
+  color: #4d4d4c;
+}
 
 .desktop {
 	width: 100%
